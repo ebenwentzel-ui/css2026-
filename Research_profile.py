@@ -29,7 +29,7 @@ st.markdown(
     </style>
     """, unsafe_allow_html=True)
 
-banner_path = r"asets/0d10d58a-81f0-451a-8c83-da4389379dc1.png"
+banner_path = r"assets/0d10d58a-81f0-451a-8c83-da4389379dc1.png"
 
 with st.container():
     if os.path.exists(banner_path):
@@ -104,3 +104,4 @@ with st.container():
     with col_img:
 
         st.image(r"C:\Users\ebenw\Documents\Tuks\CSS\Research_profile_website.py\Docking.jpg", caption="The final product", use_container_width=True)
+
