@@ -195,7 +195,10 @@ with st.container():
         "LinkedIn: https://za.linkedin.com/in/eben-wentzel-4013352a4"
     )
 
-    if os.path.exists(docking_img_path):
-        st.image(docking_img_path, caption="The final product", use_container_width=True)
-    else:
-        st.warning(f"Docking image not found: {docking_img_path}")
+   if os.path.exists(docking_img_path):
+    st.image(
+        docking_img_path,
+        caption="The final product",
+        width=400
+    )
+
